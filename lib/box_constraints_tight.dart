@@ -7,6 +7,7 @@ class BoxConstraintsTight extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        alignment: Alignment.center,
         constraints:  BoxConstraints.tight(const Size(200, 100),),
         color: Colors.red,
         child: const Text('Hello World'),
