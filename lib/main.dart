@@ -1,4 +1,5 @@
 import 'package:chapter_2/colored_box_example.dart';
+import 'package:chapter_2/flow_example.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -27,6 +28,7 @@ class HomePage extends StatelessWidget {
         child: Column(
           children: [
             ElevatedButton(onPressed: () => goToScreen(context, ColoredBoxExample()), child: const Text('Colored Box')),
+            ElevatedButton(onPressed: () => goToScreen(context, FlowExample()), child: const Text('Flow Example')),
 
           ],
         ),
